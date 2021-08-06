@@ -67,6 +67,7 @@ main{
     font-size: large;
 }
 .main-container h3{
+    text-align: center;
     justify-self: center;
     font-size: x-large;
 }
