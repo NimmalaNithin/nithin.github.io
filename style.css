@@ -39,23 +39,6 @@ main{
     background-color: darkgoldenrod;
 }
 
-@media(max-width:750px){
-    .header{
-        grid-template-columns:1fr;
-        grid-template-areas: 
-            "h1"
-            "h4"
-            "pic";
-    }
-    .header img{
-        justify-self: center;
-        margin-right: 0px;
-        max-height:200px;
-    max-width:200px;
-    }
-
-}
-
 .main-container{
     display:grid;
     grid-area: content;
@@ -83,8 +66,11 @@ main{
     margin-top:10px;
 }
 .picture p{
+    background-color: rgb(138, 134, 134);
     margin-top:3px;
+    padding:5px;
     text-align: center;
+    border-radius: 15px;
 }
 
 .footer{
@@ -104,3 +90,4 @@ main{
 .footer a:hover{
     color:wheat;
 }
+
