@@ -39,6 +39,22 @@ main{
     background-color: darkgoldenrod;
 }
 
+@media (max-width:750px){
+.header{
+    grid-template-columns:1fr;
+    grid-template-areas: 
+    "h1"
+    "h4"
+    "pic";
+}
+.header img{
+    justify-self: center;
+    max-height:200px;
+    max-width:200px;
+    margin-right: 0px;
+}
+}
+
 .main-container{
     display:grid;
     grid-area: content;
@@ -55,6 +71,15 @@ main{
     font-size: x-large;
 }
 
+@media (max-width:750px){
+    .main-container li{
+        font-size: small;
+    }
+    .main-container h3{
+        font-size: large;
+    }
+}
+
 .picture{
     grid-area:picture-tag;
     background-color: darkgray;
@@ -68,9 +93,9 @@ main{
 .picture p{
     background-color: rgb(138, 134, 134);
     margin-top:3px;
-    padding:5px;
     text-align: center;
     border-radius: 15px;
+    padding:5px;
 }
 
 .footer{
@@ -80,6 +105,7 @@ main{
     display:grid;
 }
 .footer h3{
+    padding:5px;
     justify-self: center;
     text-align: center;
 }
