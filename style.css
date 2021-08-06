@@ -19,12 +19,14 @@ main{
     "h4 pic";
 }
 .header h1{
+    text-align: center;
     justify-self: center;
     align-self: end;
     grid-area: h1;
     margin-bottom: 3px;
 }
 .header h4{
+    text-align: center;
     justify-self: center;
     grid-area: h4;
     margin-top: 2px;
@@ -73,7 +75,7 @@ main{
     grid-area:picture-tag;
     background-color: darkgray;
     display:grid;
-    justify-content: center;
+    justify-items: center;
     margin: 8px 8px 8px 8px;
 }
 .picture img{
