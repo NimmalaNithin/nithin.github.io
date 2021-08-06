@@ -18,7 +18,7 @@ main{
     "h1 pic"
     "h4 pic";
 }
-.header h1{
+.header h2{
     text-align: center;
     justify-self: center;
     align-self: end;
@@ -76,10 +76,10 @@ main{
     grid-area:picture-tag;
     background-color: darkgray;
     display:grid;
-    justify-items: center;
     margin: 8px 8px 8px 8px;
 }
 .picture img{
+    justify-self: center;
     margin-top:10px;
 }
 .picture p{
@@ -93,7 +93,7 @@ main{
     color: white;
     display:grid;
 }
-.footer h2{
+.footer h3{
     justify-self: center;
     text-align: center;
 }
