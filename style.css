@@ -1,5 +1,7 @@
 main{
-    background-color: rgb(192, 188, 182);
+    /*background-color: #facc6b;*/
+    background:url("https://img.wallpapersafari.com/tablet/2560/1700/69/57/IaNMCE.jpg");
+    
     display:grid;
     grid-template-columns:1fr;
     grid-template-areas: 
@@ -10,7 +12,9 @@ main{
 }
 .header{
     grid-area: header;
-    background-color: black;
+    /*background-color: black;*/
+    background: url("images/abstract-black-luxury-fabric-background-with-copy-space_46250-2302.jpg");
+    background-size: cover;
     color: white;
     display:grid;
     grid-template-columns:1fr auto;
@@ -36,7 +40,6 @@ main{
     max-height:300px;
     max-width:300px;
     margin-right: 100px;
-    background-color: darkgoldenrod;
 }
 
 @media (max-width:750px){
@@ -67,6 +70,7 @@ main{
     
 }
 .main-container h3{
+    color: black;
     text-align: center;
     justify-self: center;
     font-size: 1.25em;
@@ -99,9 +103,17 @@ main{
     padding:5px;
 }
 
+@media(max-width:750px){
+    .picture img{
+        height:200px;
+        width:200px;
+    }
+}
+
 .footer{
     grid-area:footer;
-    background-color: black;
+    background-image: url("images/abstract-black-luxury-fabric-background-with-copy-space_46250-2302.jpg");
+    background-size: cover;
     color: white;
     display:grid;
 }
